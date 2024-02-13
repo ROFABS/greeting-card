@@ -140,6 +140,64 @@ body {
     height:0;
   }
   
+
+
+
+  
+
+
+
+  body {
+    background-color: #fdc3c9;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+.next-button {
+    padding: 15px 30px;
+    background-color: #ff6384; /* Soft pink */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    color: white; /* Text color */
+    font-size: 18px; /* Text size */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+    text-transform: uppercase; /* Makes the button text uppercase */
+    font-weight: bold; /* Bold font weight */
+    letter-spacing: 1px; /* Space out the letters slightly */
+    margin-top: 20px;
+}
+
+.next-button:hover {
+    background-color: #ff8294; /* A slightly lighter pink on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .shadow {
     position: absolute;
     width: 330px;
